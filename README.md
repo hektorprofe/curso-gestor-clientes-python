@@ -7,3 +7,10 @@ La idea es hacer un pequeño gestor de clientes paso a paso añadiendo mejoras p
 3. Revisión guardando datos en ficheros
 4. Revisión guardando datos con SQLite
 5. Revisión añadiendo una interfaz gráfica
+
+## Para probar el programa
+
+```bash
+cd gestor
+python core.py
+```
