@@ -1,5 +1,5 @@
 import re
-import helpers
+import gestor.helpers as helpers
 
 
 class Client:
@@ -19,11 +19,7 @@ class Client:
 
 class Manager:
 
-    clients: list = [
-        Client('Marta', 'Pérez', '15J'),
-        Client('Manolo', 'López', '48H'),
-        Client('Ana', 'García', '28Z')
-    ]
+    clients: list = []
 
     @staticmethod
     def show_client(client: Client):

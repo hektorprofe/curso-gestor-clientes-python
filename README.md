@@ -9,16 +9,22 @@ La idea es hacer un pequeño gestor de clientes paso a paso añadiendo mejoras p
 5. Revisión guardando datos con SQLite
 6. Revisión añadiendo una interfaz gráfica
 
+## Instalar las dependencias
+
+_Nota: Sólo incluye pytest para realizar pruebas unitarias._
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Para probar el programa
 
 ```bash
-cd gestor
-python core.py
+python ./gestor/core.py
 ```
 
-## Para probar los tests del manager
+## Para ejecutar los tests
 
 ```bash
-cd gestor
-python manager.py -v
+pytest tests -v
 ```
