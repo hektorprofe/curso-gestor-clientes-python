@@ -1,10 +1,10 @@
 """ Fichero principal del programa"""
 
-import menu
+from menu import Menu
 
 
 def main():
-    menu.loop()
+    Menu.loop()
 
 
 if __name__ == "__main__":
