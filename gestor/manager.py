@@ -55,16 +55,8 @@ class Manager:
 
     @staticmethod
     def is_valid(dni: str):
-        """
-        Hace diferentes validaciones en el campo dni
-        >>> Manager.is_valid('48H')  # No válido, en uso
-        False
-        >>> Manager.is_valid('X82')  # No válido, incorrecto
-        False
-        >>> Manager.is_valid('21A')  # Válido
-        True
-        """
-        if not re.match('[0-9]{2}[A-Z]', dni):
+        """ Hace diferentes validaciones en el campo dni """
+        if not re.match('[0-9]{2}[A-Z]$', dni):
             return False
         for client in Manager.clients:
             if client.dni == dni:
@@ -102,8 +94,3 @@ class Manager:
             Manager.clients[i].apellido = helpers.input_text(2, 30)
             return True
         return False
-
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod(extraglobs={'Manager': Manager})
