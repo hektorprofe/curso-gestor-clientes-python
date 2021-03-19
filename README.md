@@ -5,9 +5,8 @@ La idea es hacer un pequeño gestor de clientes paso a paso añadiendo mejoras p
 1. ~~[Desarrollo del prototipo funcional](https://github.com/hcosta/curso-gestor-clientes-python/tree/1.0)~~
 2. ~~[Revisión utilizando clases estáticas](https://github.com/hcosta/curso-gestor-clientes-python/tree/2.0)~~
 3. ~~[Revisión añadiendo pruebas unitarias](https://github.com/hcosta/curso-gestor-clientes-python/tree/3.0)~~
-4. Revisión guardando datos en ficheros
-5. Revisión guardando datos con SQLite
-6. Revisión añadiendo una interfaz gráfica
+4. Revisión guardando datos con SQLite
+5. Revisión añadiendo una interfaz gráfica
 
 ## Instalar las dependencias
 
